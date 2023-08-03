@@ -45,7 +45,7 @@ answer:
 			for(;a<=b;a++)
 			{
 				if(a!='a' && a!='e' && a!='i' && a!='o' && a!='u')
-					printf("%c ",a);
+				printf("%c ",a);
 			}
 		}
 		else
@@ -53,7 +53,7 @@ answer:
 			for(;a>=b;a--)
 			{
 				if(a!='a' && a!='e' && a!='i' && a!='o' && a!='u')
-					printf("%c ",a);
+				printf("%c ",a);
 			}
 		}
 	}
