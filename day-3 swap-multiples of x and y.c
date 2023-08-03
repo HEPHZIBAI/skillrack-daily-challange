@@ -66,7 +66,7 @@ int main()
 			break;
 		}
 	}
-	for (int 1-n-1;10;1--)
+	for (int i=n-1;i>=0;i--)
 	{
 		if(a[i]%y==0)
 		{
@@ -79,6 +79,6 @@ int main()
 	a[r]=a[f];
 	a[f]=t; 
 	for (int i=0;i<n;i++) 
-		printf("%d,a[i]);
+		printf("%d ",a[i]);
 }
 	
