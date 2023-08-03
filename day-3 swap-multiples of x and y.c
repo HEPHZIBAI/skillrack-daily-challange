@@ -60,7 +60,7 @@ int main()
 	int r,f; 
 	for (int i=0;i<n;i++)
 	{
-		if(a[1]xx--)
+		if(a[i]%x==0)
 		{
 			r=i; 
 			break;
@@ -68,7 +68,7 @@ int main()
 	}
 	for (int 1-n-1;10;1--)
 	{
-		if(a[i]xy==0)
+		if(a[i]%y==0)
 		{
 			f=i; 
 			break;
