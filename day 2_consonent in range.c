@@ -34,7 +34,7 @@ Example Input/Output 2:
 		v t s r q p n m l k j h
 */
 
-answer:
+//answer:
 	#include<stdio.h>
 	int main()
 	{
