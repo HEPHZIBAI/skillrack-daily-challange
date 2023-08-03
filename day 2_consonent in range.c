@@ -44,14 +44,16 @@ answer:
 		{
 			for(;a<=b;a++)
 			{
-				printf("%c ",a);
+				if(a!='a' && a!='e' && a!='i' && a!='o' && a!='u')
+					printf("%c ",a);
 			}
 		}
 		else
 		{
 			for(;a>=b;a--)
 			{
-				printf("%c ",a);
+				if(a!='a' && a!='e' && a!='i' && a!='o' && a!='u')
+					printf("%c ",a);
 			}
 		}
 	}
