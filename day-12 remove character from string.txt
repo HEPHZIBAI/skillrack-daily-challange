@@ -1,0 +1,38 @@
+/*
+The program must accept a string S and a character CH as the input. The program must remove all the occurrences of CH in the string S and print it as the output.
+Boundary Condition(s):
+	2 <= Length of S <= 100
+Example Input/Output 1:
+	Input:
+		icecream
+		с
+	Output 
+		ieream
+	Explanation
+		The character has occurred 2 times in the string icecream". So they are removed from the string and printed as the output
+
+Example Input/Output 2:
+	Input:
+		greatappleshouldbeanapple
+		P
+	Output
+		greataleshouldbeanale
+*/
+
+//answer
+
+
+#include<stdio.h> 
+#include<stdlib.h>
+int main()
+{
+	char s[100]; 
+	scanf("%s\n",s); 
+	char a;
+	scanf("%c", &a); 
+	for (int i=0;i<strlen(s); i++)
+	{
+		if(s[i]!=a)
+			printf("%c",s[i]);
+	}
+}
